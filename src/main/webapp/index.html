@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laundry Service System</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="box">
+        <form action="save" method="post">
+            <h1>Laundry Service Entry</h1>
+
+            <label for="customerName">Customer</label>
+            <input id="" name="customerName" type="text" placeholder="Enter customer name" required>
+
+            <label for="cloths">Cloths</label>
+            <input id="" name="cloths" type="number" placeholder="Enter number of cloths" required>
+
+            <label for="service">Service</label>
+            <select id="service" name="service" type="text" placeholder="Enter service" required>
+                <option value="">Service</option>
+                <option value="wash">Wash</option>
+                <option value="iron">Iron</option>
+                <option value="dry clean">Dry Clean</option>
+            </select>
+
+        <label for="ratePerCloth">Rate per Cloth</label>
+        <input id="ratePerCloth" name="ratePerCloth" type="number" placeholder="Enter rate" required>
+
+        <button type="submit" value="save">Save</button>
+        </form>
+
+        <a href="retrieve">
+            <button type="submit" value="save">View all Entries</button>
+        </a>
+    </div>
+</body>
+</html>
