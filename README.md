@@ -35,17 +35,7 @@ case-study
 
 ## Database Setup
 
-Run the script in `db.sql` in MySQL once. The main table is:
-
-```sql
-CREATE TABLE laundry (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  customer VARCHAR(40),
-  clothes INT,
-  service VARCHAR(12),
-  rate DOUBLE
-);
-```
+Run the script in `db.sql` in MySQL once.
 
 ## How to Run
 
